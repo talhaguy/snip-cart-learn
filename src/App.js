@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2>Soccer ball</h2>
+      <img src="/logo512.png" />
+      <p>This is a wonderful soccer ball.</p>
+      <p>$19.99</p>
+      <button className="snipcart-add-item"
+        data-item-id="P000001"
+        data-item-price="19.99"
+        data-item-url="/"
+        data-item-description="This is a wonderful soccer ball."
+        data-item-image="/logo512.png"
+        data-item-name="Soccer ball">
+        Add to cart
+      </button>
     </div>
   );
 }
