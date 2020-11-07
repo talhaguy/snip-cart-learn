@@ -66,7 +66,7 @@ function App() {
       <button className="snipcart-add-item"
         data-item-id="P000001"
         data-item-price="19.99"
-        data-item-url="/"
+        data-item-url={PUBLIC_URL}
         data-item-description="This is a wonderful soccer ball."
         data-item-image="logo512.png"
         data-item-name="Soccer ball">
