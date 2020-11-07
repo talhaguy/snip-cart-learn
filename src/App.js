@@ -1,6 +1,6 @@
 
 const API_KEY = "Y2MwYjQ0ZjQtMGZjMS00ZjdlLWI3ZmYtYjU5N2M4MmEwYjUxNjM3NDAzMzA4NjU5NzYwNjky";
-PUBLIC_URL = "https://talhaguy.github.io/snip-cart-learn";
+const PUBLIC_URL = "https://talhaguy.github.io/snip-cart-learn";
 
 const customizations = `
 <div hidden id="snipcart" data-api-key=${API_KEY}>
