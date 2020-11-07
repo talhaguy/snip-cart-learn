@@ -72,9 +72,10 @@ function App() {
         Add to cart
       </button>
 
-      <div dangerouslySetInnerHTML={{__html: customizations}}></div>
+      <div dangerouslySetInnerHTML={{ __html: customizations }}></div>
     </div>
   );
 }
 
 export default App;
+
