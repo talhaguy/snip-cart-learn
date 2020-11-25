@@ -1,4 +1,3 @@
-
 const API_KEY = "Y2MwYjQ0ZjQtMGZjMS00ZjdlLWI3ZmYtYjU5N2M4MmEwYjUxNjM3NDAzMzA4NjU5NzYwNjky";
 const PUBLIC_URL = "https://talhaguy.github.io/snip-cart-learn";
 
@@ -21,14 +20,20 @@ const customizations = `
   </cart-header>
 
   <item-line>
-    <div class="root">
-      <img v-bind:src="'${PUBLIC_URL}/' + item.image" width="50"><br>
-      item: {{item.name}}<br>
-      qty: {{item.quantity}}<br>
-      price: {{item.unitPrice}}
-
-      <item-quantity>
-      </item-quantity>
+    <div class="root cart-item-line">
+      <div>
+        <img v-bind:src="'${PUBLIC_URL}/' + item.image" width="50"><br>
+      </div>
+      <div>
+        item: {{item.name}}<br>
+      </div>
+      <div>
+        price: {{item.unitPrice}}
+      </div>
+      <div>
+        <item-quantity>
+        </item-quantity>
+      </div>
     </div>
   </item-line>
 
@@ -43,6 +48,12 @@ const customizations = `
       Payment methods...
     </div>
   </featured-payment-methods>
+
+  <snipcart-input>
+    <div class="root">
+      Input...
+    </div>
+  </snipcart-input>
 </div>
 `;
 
